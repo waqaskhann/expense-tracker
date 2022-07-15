@@ -1,0 +1,69 @@
+.header {
+     margin-bottom: 64px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 48px;
+}
+
+.balance {
+    margin-bottom: 64px;
+}
+
+.balance__text {
+    font-size: 18px;
+}
+
+.balance__amount {
+    font-size: 56px;
+    margin: 0;
+}
+
+.balance__amount.is-positive {
+    color: #37b823;
+}
+
+.balance__amount.is-negative {
+    color: #fc3932;
+}
+
+.transactions-summary {
+    display: flex;
+    padding: 24px 0;
+    border: 1px solid #dedede;
+    border-radius: 12px;
+}
+
+.transactions-summary__column {
+    width: 50%;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transactions-summary__title {
+    font-size: 20px;
+    margin: 0 0 12px;
+}
+
+.transactions-summary__amount {
+    font-size: 48px;
+    margin: 0;
+}
+
+.transactions-summary__amount.income {
+    color: #37b823;
+}
+
+.transactions-summary__amount.expense {
+    color: #fc3932;
+}
+
+.transactions-summary__separator {
+    border-left: 1px solid #dedede;
+
+}
